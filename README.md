@@ -4,6 +4,6 @@ A bunch of Objective-C code snippets [originally by Mattt Thompson](https://gith
 
 ## Using Snippets
 
-Just copy the snippets to `~/Library/Developer/Xcode/UserData/CodeSnippets/`.
+Just git clone into `~/Library/Developer/Xcode/UserData/CodeSnippets/`.
 
 Alternatively, use the [**Install System Plugin** tool](https://github.com/n-b/InstallSystemPlugins) and double-click the codesnippet files.
