@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>border</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)drawBottomBorderForView:(UIView *)view andFrame:(CGRect)rect withBorderWidth: (CGFloat)borderWidth  andColor: (UIColor *)color{
+    CALayer *border = [CALayer layer];
+    border.borderColor = [color CGColor];
+    border.frame = CGRectMake(0, rect.size.height - borderWidth, rect.size.width, rect.size.height);
+    border.borderWidth = borderWidth;
+    [view.layer addSublayer:border];
+    view.layer.masksToBounds = YES;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2E60B26E-324D-47F2-92F5-B0D79ACB991B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Allows you to draw a border at the bottom of a view</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>DrawBorderForView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
